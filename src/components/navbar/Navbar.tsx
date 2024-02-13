@@ -17,7 +17,13 @@ import i18n from "@/i18n";
 const pages = ["title", "Pricing", "Blog"];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
-function Navbar() {
+function Navbar({
+  inRef,
+  visibleSection,
+}: {
+  inRef: any;
+  visibleSection: string;
+}) {
   const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(
     null
   );
@@ -42,7 +48,7 @@ function Navbar() {
   const amenu: string[] = i18n.t("menu", { returnObjects: true });
 
   return (
-    <AppBar position="sticky">
+    <AppBar position="sticky" ref={inRef}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Avatar
@@ -102,9 +108,9 @@ function Navbar() {
                 display: { xs: "block", md: "none" },
               }}
             >
-              {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{page}</Typography>
+              {amenu.map((item, index) => (
+                <MenuItem key={index} onClick={handleCloseNavMenu}>
+                  <Typography textAlign="center">{item}</Typography>
                 </MenuItem>
               ))}
             </Menu>

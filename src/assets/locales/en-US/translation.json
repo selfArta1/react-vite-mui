@@ -1,5 +1,5 @@
 {
-  "title": "welcome english",
+  "title": "SelfArt Blog",
   "description": {
     "part1": "Um loszulegen, ändere <1>src/App(DE).js</1> und speichere um neuzuladen.",
     "part2": "Wechsle die Sprache zwischen deutsch und englisch mit Hilfe der beiden Schalter."
@@ -8,19 +8,27 @@
   "section": [
     {
       "id": "Gemini",
-      "desc": "AI chat"
+      "imagsrc": "",
+      "desc": "AI chat",
+      "url": ""
     },
     {
       "id": "Tools",
-      "desc": "a few tools"
+      "imagsrc": "",
+      "desc": "a few tools",
+      "url": ""
     },
     {
       "id": "Story",
-      "desc": "pciture and story book"
+      "imagsrc": "",
+      "desc": "pciture and story book",
+      "url": ""
     },
     {
       "id": "Blender",
-      "desc": "3D and animate"
+      "imagsrc": "",
+      "desc": "3D and animate",
+      "url": ""
     }
   ]
 }
