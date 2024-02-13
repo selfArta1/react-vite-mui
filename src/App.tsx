@@ -55,7 +55,7 @@ function App() {
       sectionsRef.current.push(element);
     }
   }, []);
-
+  console.log("sectionsRef: ", sectionsRef);
   return (
     <>
       <CssBaseline />

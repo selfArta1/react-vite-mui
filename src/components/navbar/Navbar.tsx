@@ -13,6 +13,7 @@ import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import { useTranslation } from "react-i18next";
 import i18n from "@/i18n";
+import { Link } from "@mui/material";
 
 const pages = ["title", "Pricing", "Blog"];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
@@ -110,7 +111,9 @@ function Navbar({
             >
               {amenu.map((item, index) => (
                 <MenuItem key={index} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{item}</Typography>
+                  <Link textAlign="center" href={`#${item}`}>
+                    {item}
+                  </Link>
                 </MenuItem>
               ))}
             </Menu>
