@@ -1,0 +1,26 @@
+{
+  "title": "welcome english",
+  "description": {
+    "part1": "Um loszulegen, ändere <1>src/App(DE).js</1> und speichere um neuzuladen.",
+    "part2": "Wechsle die Sprache zwischen deutsch und englisch mit Hilfe der beiden Schalter."
+  },
+  "menu": ["Gemini", "Tools", "Story", "Blender"],
+  "section": [
+    {
+      "id": "Gemini",
+      "desc": "AI chat"
+    },
+    {
+      "id": "Tools",
+      "desc": "a few tools"
+    },
+    {
+      "id": "Story",
+      "desc": "pciture and story book"
+    },
+    {
+      "id": "Blender",
+      "desc": "3D and animate"
+    }
+  ]
+}

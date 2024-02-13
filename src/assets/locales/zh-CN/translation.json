@@ -1,0 +1,26 @@
+{
+  "title": "欢迎中文",
+  "description": {
+    "part1": "如有错误，请留言指出，感谢您的反馈",
+    "part2": "使用hook方式，简单易用。提供方法更改语言，不用手动实现"
+  },
+  "menu": ["加", "关于", "项目", "contact"],
+  "section": [
+    {
+      "id": "AI 聊天",
+      "desc": "AI chat"
+    },
+    {
+      "id": "工具",
+      "desc": "a few tools"
+    },
+    {
+      "id": "Story",
+      "desc": "pciture and story book"
+    },
+    {
+      "id": "Blender",
+      "desc": "3D and animate"
+    }
+  ]
+}
