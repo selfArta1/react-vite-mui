@@ -11,6 +11,7 @@ pnpm add @fontsource/roboto   “添加字体”
 pnpm add @mui/icons-material    “添加Icon”
 pnpm add -D eslint eslint-config-react-app   “安装 ESLint 相关依赖”
 pnpm add -D prettier eslint-config-prettier prettier-plugin-organize-imports  “安装 Prettier 相关依赖”
+pnpm install --save-dev eslint-plugin-prettier
 
 添加 .eslintrc.cjs
 module.exports = {
@@ -27,13 +28,14 @@ module.exports = {
 ```
 
 ## I18N
+
 ```
 pnpm install i18next-http-backend i18next-browser-languagedetector --save
 ```
+
 参考
 [React i18n 国际化 [TypeScript]](https://blog.csdn.net/qq_42389120/article/details/109049071)
- [I18next 在 React 如何使用 Typescript 编写](https://carljin.com/posts/i18next-react-typescript/#%e5%ae%89%e8%a3%85%e4%be%9d%e8%b5%96)
-
+[I18next 在 React 如何使用 Typescript 编写](https://carljin.com/posts/i18next-react-typescript/#%e5%ae%89%e8%a3%85%e4%be%9d%e8%b5%96)
 
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
